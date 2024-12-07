@@ -1,0 +1,144 @@
+.body {
+    background-color: blue;
+    width: 100%;
+    
+}
+
+#logo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: aqua;
+}
+
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 7.3rem;
+    top: -12.5rem;
+    overflow: hidden;
+    /* Prevent any extra content from showing outside */
+    width: 100%;
+    /* Set to full width to fit screen */
+    height: 50%;
+    z-index: -1;
+    /* Or adjust height according to your layout */
+}
+
+/* Style the SVG image to fit well in its parent */
+.svg img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: 10rem;
+    top: -1rem;
+    transform: translateX(0);
+    /* Adjusts horizontal alignment if necessary */
+}
+
+.svg-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -27.3rem;
+    top: -55.5rem;
+    overflow: hidden;
+    /* Prevent any extra content from showing outside */
+    width: 100%;
+    /* Set to full width to fit screen */
+    height: 100%;
+    z-index: -2;
+}
+
+.svg-1 img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: 10rem;
+    top: 0;
+    transform: translateX(0);
+    /* Adjusts horizontal alignment if necessary */
+}
+
+.circle img {
+    border-radius: 100%;
+    border: 8px solid white;
+    position: relative;
+    left: 254px;
+}
+
+.circle-1 img {
+    border-radius: 100%;
+    border: 12px solid white;
+    height: 15rem;
+    position: relative;
+    left: 89px;
+}
+
+.circle-2 img {
+    border-radius: 100%;
+    border: 8px solid white;
+    position: relative;
+    left: 10px;
+}
+
+.circle{
+    position: relative;
+    left: 7rem;
+    top: -64rem;
+    overflow: hidden;
+    /* Prevent any extra content from showing outside */
+    width: 100%;
+    /* Set to full width to fit screen */
+    height: 50%;
+    z-index: -1;
+    /* Or adjust height according to your layout */
+}
+.circle-1{
+    position: relative;
+    left: 4rem;
+    top: -74rem;
+    overflow: hidden;
+    /* Prevent any extra content from showing outside */
+    width: 100%;
+    /* Set to full width to fit screen */
+    height: 50%;
+    z-index: 7;
+    /* Or adjust height according to your layout */
+}
+.circle-2{
+    position: relative;
+    left: 2rem;
+    top: -84rem;
+    overflow: hidden;
+    /* Prevent any extra content from showing outside */
+    width: 100%;
+    /* Set to full width to fit screen */
+    height: 50%;
+    z-index: -1;
+    /* Or adjust height according to your layout */
+}
+.rec{
+    position: relative;
+    top: -95.8rem;
+    left: -7.3rem;
+    width: 120.9%;
+    overflow: hidden;
+    z-index: -3;
+}
+.container-1{
+    position: relative;
+    top: -26rem;
+}
+.footer{
+    background-color: yellow;
+    width: 121.9%;
+    height: 4rem;
+    position: relative;
+    overflow: hidden;
+    left: -8rem;
+    top: -116rem;
+}
